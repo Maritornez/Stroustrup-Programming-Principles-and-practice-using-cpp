@@ -1,18 +1,18 @@
 // Chapter3.4.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-#include "../../../std_lib_facilities.h"
+#include "../../std_lib_facilities.h"
 
 int main() {
 	double d{ 0 };
 	while (cin >> d) {
-		int i = d; // Попытка в тиснуть double в int
-		char с = i; // Попытка втиснуть int в char
-		int i2 = с; // Получаем целое значение типа char
-		cout << "d = " << d // Исходное значение типа double
-			<< " i = " << i // Преобразованное в значение int
-			<< " i2 = " << i2 // Целочисленное зна чение char
-			<< " char(" << с << ") \n"; // Символ
+		int i = d; // ГЏГ®ГЇГ»ГІГЄГ  Гў ГІГЁГ±Г­ГіГІГј double Гў int
+		char Г± = i; // ГЏГ®ГЇГ»ГІГЄГ  ГўГІГЁГ±Г­ГіГІГј int Гў char
+		int i2 = Г±; // ГЏГ®Г«ГіГ·Г ГҐГ¬ Г¶ГҐГ«Г®ГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ ГІГЁГЇГ  char
+		cout << "d = " << d // Г€Г±ГµГ®Г¤Г­Г®ГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ ГІГЁГЇГ  double
+			<< " i = " << i // ГЏГ°ГҐГ®ГЎГ°Г Г§Г®ГўГ Г­Г­Г®ГҐ Гў Г§Г­Г Г·ГҐГ­ГЁГҐ int
+			<< " i2 = " << i2 // Г–ГҐГ«Г®Г·ГЁГ±Г«ГҐГ­Г­Г®ГҐ Г§Г­Г  Г·ГҐГ­ГЁГҐ char
+			<< " char(" << Г± << ") \n"; // Г‘ГЁГ¬ГўГ®Г«
 	}
 }
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
