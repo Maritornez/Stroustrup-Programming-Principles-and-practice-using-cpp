@@ -1,12 +1,12 @@
 // Chapter3.3.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-#include "../../../std_lib_facilities.h"
+#include "../../std_lib_facilities.h"
 
 int main()
 {
 	setlocale(LC_ALL, "Russian");
-	string s = "Прощай, жестокий мир!";
+	string s = "ГЏГ°Г®Г№Г Г©, Г¦ГҐГ±ГІГ®ГЄГЁГ© Г¬ГЁГ°!";
 	cout << s << '\n';
 }
 
