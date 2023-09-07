@@ -1,7 +1,7 @@
 ﻿// Chapter3.3.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
 //
 
-#include "../../../std_lib_facilities.h"
+#include "../../std_lib_facilities.h"
 
 int main()
 {
