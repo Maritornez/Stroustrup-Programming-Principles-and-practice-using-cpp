@@ -1,13 +1,13 @@
 // Exercise6.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-#include "../../../std_lib_facilities.h"
+#include "../../std_lib_facilities.h"
 
 int main() {
     setlocale(LC_ALL, "Russian");
 
     string a, b, c;
-    cout << "Ââåäèòå òðè ñòðîêè: ";
+    cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã²Ã°Ã¨ Ã±Ã²Ã°Ã®ÃªÃ¨: ";
     while (cin >> a >> b >> c) {
         if (a < b) {
             if (b < c) {
@@ -42,7 +42,7 @@ int main() {
             }
         }
 
-        cout << "Ââåäèòå òðè ÷èñëà: ";
+        cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã²Ã°Ã¨ Ã·Ã¨Ã±Ã«Ã : ";
     }
 }
 
