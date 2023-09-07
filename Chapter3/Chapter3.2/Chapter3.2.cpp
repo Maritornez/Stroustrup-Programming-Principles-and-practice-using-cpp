@@ -1,7 +1,7 @@
 // Chapter3.2.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-#include "../../../std_lib_facilities.h"
+#include "../../std_lib_facilities.h"
 
 int main()
 {
@@ -10,7 +10,7 @@ int main()
     string current;
     while (cin >> current) {
         if (previous == current) {
-            cout << "Ïîâòîğÿşùååñÿ ñëîâî: " << current << '\n';
+            cout << "ÃÃ®Ã¢Ã²Ã®Ã°Ã¿Ã¾Ã¹Ã¥Ã¥Ã±Ã¿ Ã±Ã«Ã®Ã¢Ã®: " << current << '\n';
         }
         previous = current; 
     }
