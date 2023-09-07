@@ -1,14 +1,14 @@
 // Exercise10.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-#include "../../../std_lib_facilities.h"
+#include "../../std_lib_facilities.h"
 
 int main() {
 	setlocale(LC_ALL, "Russian");
 
 	string operation;
 	double a, b;
-	cout << "Ââåäèòå îïåðàöèþ è äâà ÷èñëà: ";
+	cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã®Ã¯Ã¥Ã°Ã Ã¶Ã¨Ã¾ Ã¨ Ã¤Ã¢Ã  Ã·Ã¨Ã±Ã«Ã : ";
 
 	while (cin >> operation >> a >> b) {
 		int switch_arg = -1;
@@ -27,23 +27,23 @@ int main() {
 
 		switch (switch_arg) {
 		case 0:
-			cout << "Ðåçóëüòàò: " << a + b << endl;
+			cout << "ÃÃ¥Ã§Ã³Ã«Ã¼Ã²Ã Ã²: " << a + b << endl;
 			break;
 		case 1:
-			cout << "Ðåçóëüòàò: " << a - b << endl;
+			cout << "ÃÃ¥Ã§Ã³Ã«Ã¼Ã²Ã Ã²: " << a - b << endl;
 			break;
 		case 2:
-			cout << "Ðåçóëüòàò: " << a * b << endl;
+			cout << "ÃÃ¥Ã§Ã³Ã«Ã¼Ã²Ã Ã²: " << a * b << endl;
 			break;
 		case 3:
-			cout << "Ðåçóëüòàò: " << a / b << endl;
+			cout << "ÃÃ¥Ã§Ã³Ã«Ã¼Ã²Ã Ã²: " << a / b << endl;
 			break;
 		default:
-			cout << "Íåèçâåñòíàÿ îïåðàöèÿ" << endl;
+			cout << "ÃÃ¥Ã¨Ã§Ã¢Ã¥Ã±Ã²Ã­Ã Ã¿ Ã®Ã¯Ã¥Ã°Ã Ã¶Ã¨Ã¿" << endl;
 			break;
 		}
 
-		cout << "Ââåäèòå îïåðàöèþ è äâà ÷èñëà: ";
+		cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã®Ã¯Ã¥Ã°Ã Ã¶Ã¨Ã¾ Ã¨ Ã¤Ã¢Ã  Ã·Ã¨Ã±Ã«Ã : ";
 	}
 }
 
