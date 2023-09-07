@@ -1,13 +1,13 @@
 // Exercise5.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-#include "../../../std_lib_facilities.h"
+#include "../../std_lib_facilities.h"
 
 int main()
 {
 	setlocale(LC_ALL, "Russian");
 
-	cout << "Ââåäèòå äâà ÷èñëà: ";
+	cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã¤Ã¢Ã  Ã·Ã¨Ã±Ã«Ã : ";
 	double a, b;
 	cin >> a >> b;
 
