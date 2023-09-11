@@ -6,13 +6,13 @@
 int main() {
 	double d{ 0 };
 	while (cin >> d) {
-		int i = d; // Ïîïûòêà â òèñíóòü double â int
-		char ñ = i; // Ïîïûòêà âòèñíóòü int â char
-		int i2 = ñ; // Ïîëó÷àåì öåëîå çíà÷åíèå òèïà char
-		cout << "d = " << d // Èñõîäíîå çíà÷åíèå òèïà double
-			<< " i = " << i // Ïðåîáðàçîâàííîå â çíà÷åíèå int
-			<< " i2 = " << i2 // Öåëî÷èñëåííîå çíà ÷åíèå char
-			<< " char(" << ñ << ") \n"; // Ñèìâîë
+		int i = d; // Попытка в тиснуть double в int
+		char c = i; // Попытка втиснуть int в char
+		int i2 = c; // Получаем целое значение типа char
+		cout << "d = " << d // Исходное значение типа double
+			<< " i = " << i // Преобразованное в значение int
+			<< " i2 = " << i2 // Целочисленное зна чение char
+			<< " char(" << c << ") \n"; // Символ
 	}
 }
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
