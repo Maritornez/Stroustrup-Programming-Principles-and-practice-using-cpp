@@ -10,7 +10,7 @@ int main()
     string current;
     while (cin >> current) {
         if (previous == current) {
-            cout << "Ïîâòîðÿþùååñÿ ñëîâî: " << current << '\n';
+            cout << "Повторяющееся слово: " << current << '\n';
         }
         previous = current; 
     }
