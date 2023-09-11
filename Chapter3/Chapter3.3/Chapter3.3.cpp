@@ -6,7 +6,7 @@
 int main()
 {
 	setlocale(LC_ALL, "Russian");
-	string s = "Ïðîùàé, æåñòîêèé ìèð!";
+	string s = "Прощай, жестокий мир!";
 	cout << s << '\n';
 }
 
